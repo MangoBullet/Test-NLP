@@ -1,0 +1,7 @@
+streamlit>=1.40,<2.0
+google-genai>=1.11,<2.0
+sentence-transformers>=3.4,<6.0
+faiss-cpu>=1.9,<2.0
+numpy>=1.26,<3.0
+pythainlp>=5.0,<6.0
+pandas>=2.2,<4.0

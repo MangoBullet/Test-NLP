@@ -1,0 +1,29 @@
+# Local credentials and environment files
+.streamlit/secrets.toml
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+.venv/
+venv/
+
+# Local model, vector-index, and test artifacts
+.cache/
+cache/
+*.faiss
+*.index
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Editor / operating system
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
